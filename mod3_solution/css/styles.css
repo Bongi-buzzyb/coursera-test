@@ -44,7 +44,10 @@ li{
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-	.navbar-toggler{
+	.navbar-toggler {
+		display: none;
+	}
+	.navbar-nav {
 		display: none;
 	}
  
@@ -59,7 +62,10 @@ li{
 
 /********** Tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.navbar-toggler{
+	.navbar-toggler {
+		display: none;
+	}
+	.navbar-nav {
 		display: none;
 	}
 	p {
